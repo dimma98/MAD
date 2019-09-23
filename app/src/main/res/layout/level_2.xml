@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".level2">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="     Press Start To Begin!"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:onClick="onClickStart"
+        android:text="Start" />
+
+    <GridLayout
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1">
+
+            <ImageView
+                android:id="@+id/btnn1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FDF7F7"
+                android:onClick="onClick"
+                android:src="@drawable/apple" />
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:clickable="true"
+            >
+
+            <ImageView
+                android:id="@+id/btnn2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FDF7F7"
+                android:onClick="onClick1"
+                android:src="@drawable/huawei" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/btnn3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FDF7F7"
+                android:onClick="onClick2"
+                android:src="@drawable/lg" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/btnn4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FDF7F7"
+                android:onClick="onClick3"
+                android:src="@drawable/motorola" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/btnn5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FDF7F7"
+                android:onClick="onClick4"
+                android:src="@drawable/oneplus" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/btnn6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FDF7F7"
+                android:onClick="onClick5"
+                android:src="@drawable/mi" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/btnn7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FDF7F7"
+                android:onClick="onClick6"
+                android:src="@drawable/micromax" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/btnn8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FDF7F7"
+                android:onClick="onClick7"
+                android:src="@drawable/blackberry" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/btnn9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FDF7F7"
+                android:onClick="onClick8"
+                android:src="@drawable/vodafone" />
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+    </GridLayout>
+
+
+
+</LinearLayout>
